@@ -7,3 +7,25 @@ body {
     color: #4F4B5C;
     text-align: center;
 }
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    flex-wrap: wrap;
+}
+
+img {
+    align-self: center;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+li  {
+    list-style-type: none;
+
+}
