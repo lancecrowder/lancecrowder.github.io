@@ -35,3 +35,7 @@ li  {
     display: none;
 }
 
+iframe {
+    /*height: 500px;*/
+    zoom: 3.5;
+}
