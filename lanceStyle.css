@@ -39,3 +39,19 @@ li  {
 iframe {
     zoom: 3.5;
 }
+
+@media all and (max-width: 500px) {
+    ul {
+        /* On small screens, we are no longer using row direction but column */
+        flex-direction: column;
+    }
+}
+
+p {
+    /*display: flex;*/
+    text-align: center;
+}
+
+body > div > p:nth-child(7) > a{
+    color: black;
+}
