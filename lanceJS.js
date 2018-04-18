@@ -4,9 +4,9 @@ $('#about').click(function () {
     // console.log('i got clicked!');
     event.preventDefault();
     $('#aboutMe:hidden').toggleClass('invisible');
-    $('iframe:visible').toggleClass('invisible');
+    $('#resumeMe:visible').toggleClass('invisible');
     $('.contactMe:visible').toggleClass('invisible');
-    $('img:visible').toggleClass('invisible');
+    $('#pictureMe:visible').toggleClass('invisible');
     $('#projectMe:visible').toggleClass('invisible');
     $('#socialMediaMe:visible').toggleClass('invisible');
 });
@@ -14,20 +14,21 @@ $('#about').click(function () {
 $('#resume').click(function () {
     // console.log('i got clicked!');
     event.preventDefault();
-    $('iframe:hidden').toggleClass('invisible');
+    $('#resumeMe:hidden').toggleClass('invisible');
     $('#aboutMe:visible').toggleClass('invisible');
     $('.contactMe:visible').toggleClass('invisible');
-    $('img:visible').toggleClass('invisible');
+    $('#pictureMe:visible').toggleClass('invisible');
     $('#projectMe:visible').toggleClass('invisible');
     $('#socialMediaMe:visible').toggleClass('invisible');
-});
+});    $('.contactMe:visible').toggleClass('invisible');
+
 
 $('#me').click(function () {
    event.preventDefault();
-   $('iframe:visible').toggleClass('invisible');
+   $('#resumeMe:visible').toggleClass('invisible');
    $('#aboutMe:visible').toggleClass('invisible');
     $('.contactMe:visible').toggleClass('invisible');
-    $('img:hidden').toggleClass('invisible');
+    $('#pictureMe:hidden').toggleClass('invisible');
     $('#projectMe:visible').toggleClass('invisible');
     $('#socialMediaMe:visible').toggleClass('invisible');
 });
@@ -37,8 +38,8 @@ $('#contact').click(function () {
     event.preventDefault();
     $('.contactMe:hidden').toggleClass('invisible');
     $('#aboutMe:visible').toggleClass('invisible');
-    $('img:visible').toggleClass('invisible');
-    $('iframe:visible').toggleClass('invisible');
+    $('#pictureMe:visible').toggleClass('invisible');
+    $('#resumeMe:visible').toggleClass('invisible');
     $('#projectMe:visible').toggleClass('invisible');
     $('#socialMediaMe:visible').toggleClass('invisible');
 });
@@ -47,20 +48,20 @@ $('#projects').click(function () {
     event.preventDefault();
     $('#projectMe:hidden').toggleClass('invisible');
     $('#aboutMe:visible').toggleClass('invisible');
-    $('img:visible').toggleClass('invisible');
-    $('iframe:visible').toggleClass('invisible');
+    $('#pictureMe:visible').toggleClass('invisible');
+    $('#resumeMe:visible').toggleClass('invisible');
     $('#socialMediaMe:visible').toggleClass('invisible');
     $('.contactMe:visible').toggleClass('invisible');
 });
 
 $('#socialMedia').click(function () {
    event.preventDefault();
-   $('#socialMediaMe:hidden').toggleClass('invisible');
+    $('#socialMediaMe:hidden').toggleClass('invisible');
     $('#aboutMe:visible').toggleClass('invisible');
-    $('img:visible').toggleClass('invisible');
-    $('iframe:visible').toggleClass('invisible');
+    $('#pictureMe:visible').toggleClass('invisible');
+    $('#resumeMe:visible').toggleClass('invisible');
     $('#projectMe:visible').toggleClass('invisible');
-
+    $('.contactMe:visible').toggleClass('invisible');
 });
 
 
