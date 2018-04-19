@@ -4,6 +4,7 @@ body {
 }
 
 #me {
+    flex: 0 0 auto;
     color: #4F4B5C;
     text-align: center;
 }
