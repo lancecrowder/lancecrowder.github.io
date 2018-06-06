@@ -25,8 +25,7 @@ main {
 }
 
 img {
-    align-self: center;
-    /*padding-bottom: 2vh;*/
+    align-items: stretch;
 }
 
 ul {
@@ -35,7 +34,6 @@ ul {
 }
 
 li  {
-    /*display: flex;*/
     list-style-type: none;
     color: #9E082C;
 }
@@ -46,6 +44,18 @@ li  {
 
 iframe {
     zoom: 3.5;
+}
+
+.contactMe{
+    align-self: center;
+    padding-top: 6%;
+    font-size: 2em;
+}
+
+#socialMediaMe{
+    align-self: center;
+    vertical-align: center;
+    padding-top: 20%;
 }
 
 @media all and (max-width: 500px) {
