@@ -25,7 +25,7 @@ main {
 }
 
 img {
-    align-items: stretch;
+    align-self: center;
 }
 
 ul {
@@ -77,4 +77,8 @@ body > div > p:nth-child(7) > a{
     #socialMediaMe > img {
         flex-direction: column;
     }
+}
+
+#projectMe{
+    align-self: center;
 }
