@@ -54,8 +54,9 @@ iframe {
 
 #socialMediaMe{
     align-self: center;
-    vertical-align: center;
-    padding-top: 20%;
+    /*vertical-align: center;*/
+    padding-top: 10em;
+    padding-bottom: 10em;
 }
 
 @media all and (max-width: 500px) {
@@ -81,4 +82,10 @@ body > div > p:nth-child(7) > a{
 
 #projectMe{
     align-self: center;
+    padding-top: 15em;
+    padding-bottom: 15em;
+}
+
+body > div > p:nth-child(7){
+    padding-bottom: 2em;
 }
